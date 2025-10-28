@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel di Perlis | Tempah Murah di Booking.com</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(45deg, #ff5e00, #ffb300);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2em;
+      margin-bottom: 5px;
+    }
+
+    header p {
+      font-size: 1em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .intro {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+
+    .hotel-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .hotel-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .hotel-card:hover {
+      transform: scale(1.03);
+    }
+
+    .hotel-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .hotel-card .content {
+      padding: 15px;
+    }
+
+    .hotel-card h3 {
+      font-size: 1.2em;
+      color: #ff5e00;
+      margin-bottom: 5px;
+    }
+
+    .hotel-card p {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .btn-booking {
+      display: inline-block;
+      background: #0071c2;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s;
+    }
+
+    .btn-booking:hover {
+      background: #005a96;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: #222;
+      color: #ddd;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Hotel di Perlis</h1>
+  <p>Tempah hotel terbaik di Perlis dengan harga menarik!</p>
+</header>
+
+<div class="container">
+  <div class="intro">
+    <p>Perlis merupakan negeri terkecil di Malaysia, terkenal dengan suasana tenang dan keindahan alam semula jadi. 
+    Jom lihat senarai hotel terbaik di Kangar, Arau dan Padang Besar. Klik butang <b>Tempah Sekarang</b> untuk terus ke Booking.com.</p>
+  </div>
+
+  <div class="hotel-list">
+    <div class="hotel-card">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/203408252.jpg?k=91d59ce87adbe8b3ac146f1eb26b97ff66dc4b54b257d978a78d6a8b20b86a35&o=&hp=1" alt="Hotel Seri Malaysia Kangar">
+      <div class="content">
+        <h3>Hotel Seri Malaysia Kangar</h3>
+        <p>Lokasi strategik di pusat bandar Kangar. Sesuai untuk keluarga dan pelancong bajet.</p>
+        <a href="https://www.booking.com/hotel/my/seri-malaysia-kangar.ms.html?aid=alifroney91@gmail.com" class="btn-booking" target="_blank">Tempah Sekarang</a>
+      </div>
+    </div>
+
+    <div class="hotel-card">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/296142411.jpg?k=47d0e3e7a6b50a2b95b0f3ce134586be5694742c66b8f7ccdfca66f1198deeb8&o=&hp=1" alt="The Putra Regency Hotel">
+      <div class="content">
+        <h3>The Putra Regency Hotel</h3>
+        <p>Hotel 4 bintang di Kangar dengan kolam renang dan restoran mewah.</p>
+        <a href="https://www.booking.com/hotel/my/the-putra-regency.ms.html?aid=alifroney91@gmail.com" class="btn-booking" target="_blank">Tempah Sekarang</a>
+      </div>
+    </div>
+
+    <div class="hotel-card">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/307513381.jpg?k=acdc8a45d21f4b4b8b89c54a07bcbf6bbf84e9c44e943f384c8b71d25ee1e8a8&o=&hp=1" alt="Aurora Guesthouse Arau">
+      <div class="content">
+        <h3>Aurora Guesthouse Arau</h3>
+        <p>Penginapan moden berhampiran UiTM Perlis dan istana Arau.</p>
+        <a href="https://www.booking.com/hotel/my/aurora-guesthouse-arau.ms.html?aid=alifroney91@gmail.com" class="btn-booking" target="_blank">Tempah Sekarang</a>
+      </div>
+    </div>
+
+    <div class="hotel-card">
+      <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/286071248.jpg?k=bd33dd79cdd8d4f210c7fcb08e4cc7b032f72cd081a7e9f574d5a04f084eaa8c&o=&hp=1" alt="Hotel Sooguan">
+      <div class="content">
+        <h3>Hotel Sooguan, Kangar</h3>
+        <p>Hotel bajet bersih dan selesa di tengah-tengah Kangar.</p>
+        <a href="https://www.booking.com/hotel/my/sooguan.ms.html?aid=alifroney91@gmail.com" class="btn-booking" target="_blank">Tempah Sekarang</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 Hotel di Perlis. Dibangunkan oleh Alif Yacob. Semua pautan ke Booking.com mengandungi kod affiliate.</p>
+</footer>
+
+</body>
+</html>
